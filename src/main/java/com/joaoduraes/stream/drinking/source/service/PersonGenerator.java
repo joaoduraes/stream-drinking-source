@@ -11,7 +11,7 @@ import java.util.UUID;
 public class PersonGenerator {
 
     private final String[] firstNames = "Theresa, Donald, Angela, Emmanuel".split(", ");
-    private final String[] lastNames = "May, Trump, Merkel, Macrons".split(", ");
+    private final String[] lastNames = "May, Trump, Merkel, Macron".split(", ");
 
     private final Random rnd = new Random();
     private int i = 0, j = 0;
